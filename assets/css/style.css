@@ -1,0 +1,105 @@
+/* Tipografía personalizada */
+@font-face {
+	font-family: 'Harmonia Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Harmonia Regular'), url('../fonts/Harmonia-Regular.otf') format('opentype'), url('../fonts/Harmonia-Regular.ttf') format('truetype');
+}
+body {
+  font-family: "Harmonia Regular", sans-serif;
+  background-color: #001750;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  text-align: center;
+  padding: 24px 16px 0;
+}
+
+.header img {
+  max-height: 48px;
+}
+
+.container {
+  max-width: 350px;
+  margin: -100px auto 10px;
+  padding: 110px 24px 24px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  color: #222;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 25px auto 0;
+  position: relative;
+  z-index: 2;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #171940;
+  margin: 10px 0 4px;
+}
+
+h2 {
+  font-size: 35px;
+  color: #3a5aa0;
+  margin: 0 0 16px;
+}
+
+.contact-info {
+  text-align: left;
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+.contact-item {
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+}
+
+.contact-item a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #222;
+}
+
+.footer {
+  background-color: #001750;
+  padding: 10px 16px 20px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-family: 'Harmonia-Bold', Arial, sans-serif;
+}
+
+.footer div:last-child {
+  font-size: 20px;
+  margin-top: 6px;
+}
